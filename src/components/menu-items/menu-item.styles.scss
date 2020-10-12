@@ -1,13 +1,17 @@
 .menu-item {
-  min-width: 40%;
-  height: 640px;
-  flex: 1 1;
+  width: 40%;
+  height: 430px;
   display: flex;
   align-items: center;
   justify-content: center;
   border: 1px solid black;
-  margin: 0 7.5px 15px;
+  margin-bottom: 70px;
   overflow: hidden;
+
+  @media screen and(max-width: 750px) {
+    width: 100%;
+    margin: 0;
+  }
 
   &:hover {
     cursor: pointer;
@@ -24,14 +28,6 @@
 
   &.large {
     height: 380px;
-  }
-
-  &:first-child {
-    margin-right: 7.5px;
-  }
-
-  &:last-child {
-    margin-left: 7.5px;
   }
 
   .background-image {

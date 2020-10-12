@@ -1,9 +1,6 @@
 .menu-item {
-  min-width: 40%;
-  height: 640px;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1;
-          flex: 1 1;
+  width: 40%;
+  height: 430px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -14,8 +11,15 @@
       -ms-flex-pack: center;
           justify-content: center;
   border: 1px solid black;
-  margin: 0 7.5px 15px;
+  margin-bottom: 70px;
   overflow: hidden;
+}
+
+@media screen and (max-width: 750px) {
+  .menu-item {
+    width: 100%;
+    margin: 0;
+  }
 }
 
 .menu-item:hover {
@@ -37,14 +41,6 @@
 
 .menu-item.large {
   height: 380px;
-}
-
-.menu-item:first-child {
-  margin-right: 7.5px;
-}
-
-.menu-item:last-child {
-  margin-left: 7.5px;
 }
 
 .menu-item .background-image {
