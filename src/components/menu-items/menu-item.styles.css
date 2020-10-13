@@ -33,6 +33,7 @@
   transition: -webkit-transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
   transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
   transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95), -webkit-transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+  opacity: 0.6;
 }
 
 .menu-item:hover .content {

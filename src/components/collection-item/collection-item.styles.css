@@ -7,10 +7,17 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 350px;
+  height: 250px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+@media screen and (max-width: 750px) {
+  .collection-item {
+    width: 300px;
+    margin-bottom: 30px;
+  }
 }
 
 .collection-item .image {
