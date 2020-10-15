@@ -60,7 +60,7 @@ const SHOP_DATA = [
     routeName: "womens-sneakers",
     items: [
       {
-        id: 1,
+        id: 7,
         name: "Adidas Yeezy Pink",
         imageUrl: "images/womens-sneakers/womens-adidas-yeezy-pink.jpg",
         price: 200,
@@ -68,7 +68,7 @@ const SHOP_DATA = [
         author: "Photo by Erik Mclean on Unsplash",
       },
       {
-        id: 2,
+        id: 8,
         name: "New Balance Encap",
         imageUrl: "images/womens-sneakers/womens-new-balance-encap.jpg",
         price: 125,
@@ -76,7 +76,7 @@ const SHOP_DATA = [
         author: "Photo by Linda Xu on Unsplash",
       },
       {
-        id: 3,
+        id: 9,
         name: "Nike Air Max 90",
         imageUrl: "images/womens-sneakers/womens-nike-air-max90.jpg",
         price: 130,
@@ -84,7 +84,7 @@ const SHOP_DATA = [
         author: "Photo by Mavestida Magazine on Unsplash",
       },
       {
-        id: 4,
+        id: 10,
         name: "Nike Air Classic",
         imageUrl: "images/womens-sneakers/womens-nike-air-classic.jpg",
         price: 110,
@@ -92,7 +92,7 @@ const SHOP_DATA = [
         author: "Photo by Nathan Jongerius on Unsplash",
       },
       {
-        id: 5,
+        id: 11,
         name: "Nike Air Jordan",
         imageUrl: "images/womens-sneakers/womens-nike-air-jordan.jpg",
         price: 170,
@@ -100,7 +100,7 @@ const SHOP_DATA = [
         author: "Photo by Pat Kwon on Unsplash",
       },
       {
-        id: 6,
+        id: 12,
         name: "Nike Air Max Gold",
         imageUrl: "images/womens-sneakers/womens-nike-air-max-gold.jpg",
         price: 200,
@@ -115,7 +115,7 @@ const SHOP_DATA = [
     routeName: "mens-leather",
     items: [
       {
-        id: 1,
+        id: 13,
         name: "Suede Penny Loafers",
         imageUrl: "images/mens-leather/mens-suede-loafers.jpg",
         price: 90,
@@ -123,7 +123,7 @@ const SHOP_DATA = [
         author: "Photo by Alex Hudson on Unsplash",
       },
       {
-        id: 2,
+        id: 14,
         name: "Leather Dockers",
         imageUrl: "images/mens-leather/mens-leather-dockers.jpg",
         price: 110,
@@ -131,7 +131,7 @@ const SHOP_DATA = [
         author: "Photo by Alexander Andrews on Unsplash",
       },
       {
-        id: 3,
+        id: 15,
         name: "Ivory Toe Capps",
         imageUrl: "images/mens-leather/mens-ivory-toe-capps.jpg",
         price: 250,
@@ -139,7 +139,7 @@ const SHOP_DATA = [
         author: "Photo by Erik Jan on Unsplash",
       },
       {
-        id: 4,
+        id: 16,
         name: "Leather Loafers",
         imageUrl: "images/mens-leather/mens-leather-loafers.jpg",
         price: 80,
@@ -147,7 +147,7 @@ const SHOP_DATA = [
         author: "Photo by Gabe Pierce on Unsplash",
       },
       {
-        id: 5,
+        id: 17,
         name: "The Standard",
         imageUrl: "images/mens-leather/mens-leather-hero.jpg",
         price: 130,
@@ -155,7 +155,7 @@ const SHOP_DATA = [
         author: "Photo by Nicholas Bui on Unsplash",
       },
       {
-        id: 6,
+        id: 18,
         name: "Tan Oxford Smooth Toe",
         imageUrl: "images/mens-leather/mens-tan-oxford.jpg",
         price: 100,
@@ -170,7 +170,7 @@ const SHOP_DATA = [
     routeName: "womens-leather",
     items: [
       {
-        id: 1,
+        id: 19,
         name: "Duck Boots",
         imageUrl: "images/womens-leather/womens-duck-boots.jpg",
         price: 125,
@@ -178,7 +178,7 @@ const SHOP_DATA = [
         author: "Photo by Emma Dau on Unsplash",
       },
       {
-        id: 2,
+        id: 20,
         name: "Leather Standards",
         imageUrl: "images/womens-leather/womens-leather-standards.jpg",
         price: 95,
@@ -186,7 +186,7 @@ const SHOP_DATA = [
         author: "Photo by freestock on Unsplash",
       },
       {
-        id: 3,
+        id: 21,
         name: "Yellow Combat",
         imageUrl: "images/womens-leather/womens-yellow-combat.jpg",
         price: 150,
@@ -194,7 +194,7 @@ const SHOP_DATA = [
         author: "Photo by Noah Buscher on Unsplash",
       },
       {
-        id: 4,
+        id: 22,
         name: "Timberlands",
         imageUrl: "images/womens-leather/womens-leather-hero.jpg",
         price: 130,
