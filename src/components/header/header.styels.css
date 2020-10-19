@@ -20,6 +20,9 @@
 }
 
 .header .logo-container .logo {
+  font-family: "Lacquer", cursive;
+  font-size: 40px;
+  margin: 10px 0 0 20px;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
