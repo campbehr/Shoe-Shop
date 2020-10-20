@@ -28,6 +28,12 @@
       align-self: center;
 }
 
+@media screen and (max-width: 450px) {
+  .header .logo-container .logo {
+    font-size: 32px;
+  }
+}
+
 .header .options {
   width: 50%;
   height: 100%;
@@ -40,6 +46,12 @@
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+}
+
+@media screen and (max-width: 750px) {
+  .header .options {
+    display: none;
+  }
 }
 
 .header .options .option {

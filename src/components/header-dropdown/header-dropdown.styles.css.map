@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "header-dropdown.styles.scss"
+    ],
+    "names": [],
+    "file": "header-dropdown.styles.css"
+}

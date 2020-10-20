@@ -9,6 +9,8 @@ import { selectCartHidden } from "../../redux/cart/cart.selectors";
 import { selectCurrentUser } from "../../redux/user/user.selectors";
 import "./header.styels.css";
 
+import Hamburger from "../hamburger/hamburger.component";
+
 const Header = ({ currentUser, hidden }) => (
   <div className="header">
     <Link className="logo-container" to="/">
@@ -33,6 +35,7 @@ const Header = ({ currentUser, hidden }) => (
       <CartIcon />
     </div>
     {hidden ? null : <CartDropdown />}
+    <Hamburger />
   </div>
 );
 
