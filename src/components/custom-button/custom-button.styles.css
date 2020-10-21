@@ -21,6 +21,12 @@
           justify-content: center;
 }
 
+@media screen and (max-width: 750px) {
+  .custom-button {
+    font-size: 12px;
+  }
+}
+
 .custom-button:hover {
   background-color: white;
   color: black;

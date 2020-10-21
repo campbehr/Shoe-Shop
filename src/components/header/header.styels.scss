@@ -7,6 +7,7 @@
   background-color: rgba(255, 255, 255, 0.981);
   position: fixed;
   z-index: 2;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
 
   .logo-container {
     height: 100%;
@@ -22,23 +23,10 @@
       @media screen and (max-width: 450px) {
         font-size: 32px;
       }
-    }
-  }
 
-  .options {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-
-    @media screen and (max-width: 750px) {
-      display: none;
-    }
-
-    .option {
-      padding: 10px 15px;
-      cursor: pointer;
+      @media screen and (max-width: 370px) {
+        font-size: 28px;
+      }
     }
   }
 }

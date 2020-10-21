@@ -1,0 +1,10 @@
+.header-menu {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+  height: 70px;
+
+  @media screen and (max-width: 750px) {
+    display: none;
+  }
+}

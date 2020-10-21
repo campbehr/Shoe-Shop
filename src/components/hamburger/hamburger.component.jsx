@@ -1,15 +1,30 @@
 import React from "react";
+import { connect } from "react-redux";
+import { toggleMenuHidden } from "../../redux/header/header.actions";
+
+import HamburgerMenu from "../hamburger-menu/hamburger-menu.component";
 
 import "./hamburger.styles.css";
 
-const Hamburger = () => {
+const Hamburger = ({ toggleMenuHidden, hideMenu }) => {
   return (
-    <div className="hamburger">
-      <div></div>
-      <div></div>
-      <div></div>
+    <div className="hamburger-wrapper">
+      <div className="hamburger" onClick={() => toggleMenuHidden()}>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      {hideMenu ? null : <HamburgerMenu />}
     </div>
   );
 };
 
-export default Hamburger;
+const mapStateToProps = ({ header: { hideMenu } }) => ({
+  hideMenu,
+});
+
+const mapDispatchToProps = (dispatch) => ({
+  toggleMenuHidden: () => dispatch(toggleMenuHidden()),
+});
+
+export default connect(mapStateToProps, mapDispatchToProps)(Hamburger);

@@ -15,6 +15,12 @@
   padding-top: 100px;
 }
 
+@media screen and (max-width: 750px) {
+  .checkout-page {
+    width: 95%;
+  }
+}
+
 .checkout-page .checkout-header {
   width: 100%;
   padding: 10px 0;

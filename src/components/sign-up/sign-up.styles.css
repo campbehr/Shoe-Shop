@@ -9,6 +9,18 @@
   width: 380px;
 }
 
+@media screen and (max-width: 1000px) {
+  .sign-up {
+    margin-top: 150px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .sign-up {
+    width: 280px;
+  }
+}
+
 .sign-up .title {
   margin: 10px 0;
 }

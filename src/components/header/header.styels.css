@@ -11,6 +11,7 @@
   background-color: rgba(255, 255, 255, 0.981);
   position: fixed;
   z-index: 2;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
 }
 
 .header .logo-container {
@@ -34,28 +35,9 @@
   }
 }
 
-.header .options {
-  width: 50%;
-  height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-}
-
-@media screen and (max-width: 750px) {
-  .header .options {
-    display: none;
+@media screen and (max-width: 370px) {
+  .header .logo-container .logo {
+    font-size: 28px;
   }
-}
-
-.header .options .option {
-  padding: 10px 15px;
-  cursor: pointer;
 }
 /*# sourceMappingURL=header.styels.css.map */

@@ -17,6 +17,16 @@
   z-index: 5;
 }
 
+@media screen and (max-width: 670px) {
+  .cart-dropdown {
+    height: 270px;
+    top: 70vw;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+}
+
 .cart-dropdown .empty-message {
   text-align: center;
   margin-top: 70px;
